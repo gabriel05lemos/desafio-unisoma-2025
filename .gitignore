@@ -1,0 +1,48 @@
+# Ambiente Virtual do Python
+# Nunca deve ser enviado para o repositório
+venv/
+
+# Arquivos e pastas de build do PyInstaller
+# São gerados a cada compilação e não devem ser versionados
+build/
+dist/
+*.spec
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.pyc
+
+# Banco de Dados e Índice de Vetores
+# Estes arquivos são gerados pelo aplicativo com dados do usuário
+*.sqlite3
+*.sqlite3-*
+*.faiss
+
+# Segredos locais
+.env
+.env.*
+!.env.example
+
+# Pacotes distribuíveis e arquivos específicos do sistema operacional
+EXECUTAVEL_CHATBOT/
+*.exe
+.DS_Store
+
+# Pastas de backup pessoal
+# O asterisco (*) ignora qualquer pasta que comece com "backupprojeto"
+backupprojeto*
+
+# Arquivos de teste e temporários
+texto.txt
+
+# Configurações de IDEs (opcional, mas boa prática)
+.vscode/
+.idea/
+.dist/
+.build/
+
+.dist
+.build
+
+# A especificação do PyInstaller é código-fonte da compilação e deve ser mantida.
+!ChatbotUnisoma.spec

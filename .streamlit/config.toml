@@ -1,0 +1,15 @@
+[theme]
+# Cor primária (botões, seleções) - Laranja Oikon
+primaryColor="#f37021"
+
+# Cor de fundo principal - AGORA É O AZUL MÉDIO
+backgroundColor="#3d508a"
+
+# Cor de fundo secundária (sidebar, chat) - AGORA É O AZUL ESCURO
+secondaryBackgroundColor="#171A3D"
+
+# Cor do texto principal
+textColor="#FFFFFF"
+
+# Fonte
+font="sans serif"
